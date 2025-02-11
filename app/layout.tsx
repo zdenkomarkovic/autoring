@@ -1,3 +1,4 @@
+import CallButton from "@/components/callbutton";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import type { Metadata } from "next";
@@ -36,6 +37,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <CallButton />
         <Footer />
       </body>
     </html>

@@ -1,42 +1,19 @@
 import { GiWeightLiftingUp } from "react-icons/gi";
-import { GiWeight } from "react-icons/gi";
 import { IoFitnessOutline } from "react-icons/io5";
-import { IoIosFitness } from "react-icons/io";
 import { MdOutlineSportsGymnastics } from "react-icons/md";
-import { GiGymBag } from "react-icons/gi";
 import { IoIosPeople } from "react-icons/io";
 import { IoIosPerson } from "react-icons/io";
 import { PiRocketLaunchBold } from "react-icons/pi";
 
 export const navList = [
   {
-    title: "Početna",
+    title: "Mini Bus voznja",
     link: "/",
   },
+
   {
-    title: "Usluge",
-    list: [
-      {
-        title: "Kuhinje",
-        link: "",
-      },
-      {
-        title: "Plakari",
-        link: "",
-      },
-      {
-        title: "TV Komode",
-        link: "",
-      },
-      {
-        title: "Projektovanje Enterijera",
-        link: "",
-      },
-    ],
-  },
-  {
-    title: "Proizvodi",
-    link: "/proizvodi",
+    title: "Mega Taxi Pozega",
+    link: "/taxi",
   },
   {
     title: "Kontakt",
