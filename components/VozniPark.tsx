@@ -12,10 +12,10 @@ import ImageCarusel from "./Imagecarusel";
 
 const VozniPark = () => {
   return (
-    <div className="container px-2 md:px-5 mx-auto py-20 space-y-10">
-      <h1 className="text-6xl text-center text-primary font-bold">
+    <div className="container px-2 md:px-5 mx-auto py-10 md:py-20 space-y-3 md:space-y-10">
+      <h2 className="text-3xl md:text-6xl text-center text-primary font-bold">
         Nas vozni park
-      </h1>
+      </h2>
       <ImageCarusel title={"Volkswagen sa 22+1 sedista"} images={vw} />
       <ImageCarusel title={"Mercedes sa 23+1 sedista"} images={mercedes} />
       <ImageCarusel

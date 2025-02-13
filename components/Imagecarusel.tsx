@@ -23,7 +23,7 @@ const ImageCarusel = ({
 }) => {
   return (
     <div className=" container px-2 md:px-4 mx-auto">
-      <h2 className="text-4xl py-10 text-center">{title}</h2>
+      <h3 className="text-xl md:text-4xl py-5 md:py-10 text-center">{title}</h3>
 
       <Carousel
         className="w-full overflow-hidden"

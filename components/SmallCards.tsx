@@ -1,8 +1,8 @@
 import React from "react";
 import { TfiMapAlt } from "react-icons/tfi";
 import { IoCarSportOutline } from "react-icons/io5";
-import { FaWifi } from "react-icons/fa6";
-import { PiPiggyBankLight } from "react-icons/pi";
+import { LuTimerReset } from "react-icons/lu";
+import { TbUserHeart } from "react-icons/tb";
 
 const SmallCards = () => {
   return (
@@ -27,13 +27,13 @@ const SmallCards = () => {
           </div>
 
           <div className="p-3 text-center flex flex-col gap-3 shadow-lg shadow-primary rounded-xl">
-            <PiPiggyBankLight className="mx-auto text-primary text-5xl md:text-7xl " />
+            <LuTimerReset className="mx-auto text-primary text-5xl md:text-7xl " />
             <p className="text-xl lg:text-[24px]">
               Fleksibilnost u organizaciji prevoza
             </p>
           </div>
           <div className="p-3 text-center flex flex-col gap-3 shadow-lg shadow-primary rounded-xl">
-            <FaWifi className="mx-auto text-primary text-5xl md:text-7xl " />
+            <TbUserHeart className="mx-auto text-primary text-5xl md:text-7xl " />
 
             <p className="text-xl lg:text-2xl">
               Profesionalni i iskusni vozači
