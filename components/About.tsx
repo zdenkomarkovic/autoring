@@ -4,7 +4,8 @@ const About = () => {
   return (
     <div className="container px-2 md:px-16 mx-auto py-10 md:py-20 space-y-5 md:space-y-10">
       <h2 className="text-3xl md:text-6xl px-8 font-bold text-primary text-center">
-        Profesionalan prevoz putnika – Mini bus, kombi i autobuski prevoz
+        U nasoj floti imamo veliki izbor novih vozila kojima vrsimo kombi prevoz
+        i mini bus prevoz.
       </h2>
       <p className="text-xl md:text-3xl ">
         Naša firma sa sedištem u{" "}
