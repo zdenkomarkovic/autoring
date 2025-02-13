@@ -107,6 +107,21 @@ export const testimonialData: TestimonialData[] = [
     title: "Milica P.",
     image: "/hero1.jpg",
     description:
-      "Treniram ovde već nekoliko godina i mogu reći da mi je ovo druga porodica! Pored sjajnih treninga, upoznala sam divne ljude koji su mi postali bliski prijatelji. Motivacija i podrška su neverovatni!",
+      "Treniram ovde već , godina i mogu reći da mi je ovo druga porodica! Pored sjajnih treninga, upoznala sam divne ljude koji su mi postali bliski prijatelji. Motivacija i podrška su neverovatni!",
   },
+];
+
+export const vw: string[] = [
+  "/minibus/vw.jpg",
+  "/minibus/vw (2).jpg",
+  "/minibus/vw (3).jpg",
+  "/minibus/vw (4).jpg",
+  "/minibus/vw (5).jpg",
+  "/minibus/vw (6).jpg",
+  "/minibus/vw (7).jpg",
+  "/minibus/vw (8).jpg",
+  "/minibus/vw (9).jpg",
+  "/minibus/vw (10).jpg",
+  "/minibus/vw (11).jpg",
+  "/minibus/vw (12).jpg",
 ];

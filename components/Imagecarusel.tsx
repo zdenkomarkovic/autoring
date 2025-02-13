@@ -15,7 +15,13 @@ import { ImageData, imageData } from "@/constants/index";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "@/node_modules/next/image";
 
-const ImageCarusel = ({ title }: { title: string }) => {
+const ImageCarusel = ({
+  title,
+  images,
+}: {
+  title: string;
+  images: string[];
+}) => {
   return (
     <div className="pb-10 container px-4 mx-auto border-t-2 border-primary">
       <h2 className="text-5xl py-20 text-center text-primary font-gagalin">
@@ -38,9 +44,9 @@ const ImageCarusel = ({ title }: { title: string }) => {
         ]}
       >
         <CarouselContent className="flex flex-row-reverse gap-1 md:ml-16 mr-8 md:mr-16 rtl">
-          {imageData.map((image) => (
+          {images.map((image, i) => (
             <CarouselItem
-              key={image.id}
+              key={i}
               className="pl-1 basis-[88%] md:basis-1/2 lg:basis-1/3"
             >
               <div className="px-1 flex flex-col">
@@ -58,7 +64,7 @@ const ImageCarusel = ({ title }: { title: string }) => {
 
 export default ImageCarusel;
 
-const ImageCard = ({ image }: { image: ImageData }) => {
+const ImageCard = ({ image }: { image: string }) => {
   return (
     <motion.div
       whileHover={{ scale: 1.05 }}
@@ -69,7 +75,7 @@ const ImageCard = ({ image }: { image: ImageData }) => {
         className={`bg-primary relative overflow-hidden  rounded-3xl text-white `}
       >
         <Image
-          src={image.image}
+          src={image}
           width={200}
           height={200}
           alt="lucky fitnes"
