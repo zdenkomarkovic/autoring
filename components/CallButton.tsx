@@ -10,7 +10,7 @@ const CallButton = () => {
   useEffect(() => {
     const heroSection = document.querySelector(".hero");
     const taxiSection = document.querySelector(".taxi");
-    const updateVisibility = (entries) => {
+    const updateVisibility = (entries: IntersectionObserverEntry[]) => {
       const isHeroVisible = entries.find(
         (entry) =>
           entry.target.classList.contains("hero") && entry.isIntersecting
