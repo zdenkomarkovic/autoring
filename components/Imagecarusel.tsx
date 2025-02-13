@@ -22,10 +22,8 @@ const ImageCarusel = ({
   images: string[];
 }) => {
   return (
-    <div className="pb-10 container px-4 mx-auto border-t-2 border-primary">
-      <h2 className="text-5xl py-20 text-center text-primary font-gagalin">
-        {title}
-      </h2>
+    <div className=" container px-2 md:px-4 mx-auto">
+      <h2 className="text-4xl py-10 text-center">{title}</h2>
 
       <Carousel
         className="w-full overflow-hidden"
