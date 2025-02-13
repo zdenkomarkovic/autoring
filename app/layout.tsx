@@ -1,3 +1,4 @@
+import ButtonToTop from "@/components/ButtonToTop";
 import CallButton from "@/components/CallButton";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
@@ -38,6 +39,7 @@ export default function RootLayout({
         <Header />
         {children}
         <CallButton />
+        <ButtonToTop />
         <Footer />
       </body>
     </html>
