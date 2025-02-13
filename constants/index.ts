@@ -125,3 +125,54 @@ export const vw: string[] = [
   "/minibus/vw (11).jpg",
   "/minibus/vw (12).jpg",
 ];
+
+export const mercedes: string[] = [
+  "/minibus/mercedes.jpg",
+  "/minibus/mercedes (2).jpg",
+  "/minibus/mercedes (3).jpg",
+  "/minibus/mercedes (4).jpg",
+  "/minibus/mercedes (5).jpg",
+  "/minibus/mercedes (6).jpg",
+  "/minibus/mercedes (7).jpg",
+  "/minibus/mercedes (8).jpg",
+  "/minibus/mercedes (9).jpg",
+  "/minibus/mercedes (10).jpg",
+];
+
+export const bmercedes: string[] = [
+  "/minibus/bmercedes.jpg",
+  "/minibus/bmercedes (2).jpg",
+  "/minibus/bmercedes (3).jpg",
+  "/minibus/bmercedes (4).jpg",
+  "/minibus/bmercedes (5).jpg",
+  "/minibus/bmercedes (6).jpg",
+  "/minibus/bmercedes (7).jpg",
+];
+
+export const reno: string[] = [
+  "/minibus/reno.jpg",
+  "/minibus/reno (2).jpg",
+  "/minibus/reno (3).jpg",
+  "/minibus/reno (4).jpg",
+  "/minibus/reno (5).jpg",
+  "/minibus/reno (6).jpg",
+];
+
+export const cmercedes: string[] = [
+  "/minibus/cmercedes.jpg",
+  "/minibus/cmercedes (2).jpg",
+  "/minibus/cmercedes (3).jpg",
+];
+
+export const merced: string[] = [
+  "/minibus/7+1.jpg",
+  "/minibus/7+1 (2).jpg",
+  "/minibus/7+1 (3).jpg",
+  "/minibus/7+1 (4).jpg",
+];
+
+export const bus: string[] = [
+  "/minibus/bus.jpg",
+  "/minibus/bus (2).jpg",
+  "/minibus/bus (3).jpg",
+];
