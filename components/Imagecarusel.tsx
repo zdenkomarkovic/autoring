@@ -11,7 +11,6 @@ import {
 
 import { motion } from "framer-motion";
 import { Card } from "./ui/card";
-import { ImageData, imageData } from "@/constants/index";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "@/node_modules/next/image";
 
