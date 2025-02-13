@@ -17,7 +17,7 @@ const Hero = () => {
         />
       </div>
       <div className="relative flex flex-col gap-6 w-full items-center justify-center text-white z-[1] text-center">
-        <h1 className="text-primary md:text-[4rem] text-xl font-bold leading-[1.2] px-4">
+        <h1 className="text-primary md:text-[4rem] text-2xl font-bold leading-[1.2] px-4">
           Profesionalan prevoz putnika – Mini bus, kombi i autobuski prevoz
         </h1>
         <h2 className="text-background font-medium md:text-[1.5rem] text-md max-w-[800px] px-4">

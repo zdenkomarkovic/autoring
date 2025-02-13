@@ -6,7 +6,7 @@ import { Facebook, Instagram } from "lucide-react";
 export default function Footer() {
   return (
     <motion.footer
-      className=" bg-gray-900 py-8  shadow-[0px_-2px_5px_rgba(0,0,0,0.1)]"
+      className=" py-8  shadow-[0px_-2px_5px_rgba(0,0,0,0.1)]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5 }}
@@ -68,11 +68,12 @@ export default function Footer() {
             </div>
           </div>
           <div className="md:col-span-1 col-span-2 text-center text-primary">
-            <h3 className="text-lg font-semibold mb-2 md:mb-4">
-              starter naslov
-            </h3>
+            <h3 className="text-lg font-semibold mb-2 md:mb-4">Autoring</h3>
 
-            <p className=" font-bold ">starter poruka</p>
+            <p className=" font-bold ">
+              Kombi prevoz putnika, Minibus prevoz, Autobuski prevoz...vi
+              birate!
+            </p>
           </div>
         </div>
         <div className="mt-5 pt-5 md:mt-8 md:pt-8 border-t border-muted-foreground/20 text-center text-muted-foreground">
