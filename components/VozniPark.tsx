@@ -1,6 +1,6 @@
 import { vw } from "@/constants/index";
 import React from "react";
-import ImageCarusel from "ImageCarusel";
+import ImageCarusel from "../components/ImageCarusel";
 
 const VozniPark = () => {
   return (
