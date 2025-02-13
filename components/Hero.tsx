@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="relative flex min-h-[100dvh]">
+    <div className=" hero relative flex min-h-[100dvh]">
       <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-[1]" />
       <div className="absolute top-0 left-0 w-full h-[100dvh] z-[0]">
         <Image

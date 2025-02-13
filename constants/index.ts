@@ -7,7 +7,7 @@ import { PiRocketLaunchBold } from "react-icons/pi";
 
 export const navList = [
   {
-    title: "Mini Bus voznja",
+    title: "Prevoz Mini Bus",
     link: "/",
   },
 

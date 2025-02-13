@@ -1,13 +1,12 @@
-import Cardlist from "@/components/Cardlist";
 import Hero from "@/components/Hero";
-import Testemonials from "@/components/Testimonials";
+
+import VozniPark from "@/components/voznipark";
 
 export default function Home() {
   return (
     <div className="">
       <Hero />
-      <Cardlist />
-      <Testemonials />
+      <VozniPark />
     </div>
   );
 }

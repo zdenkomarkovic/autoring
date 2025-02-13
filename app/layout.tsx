@@ -1,4 +1,4 @@
-import CallButton from "@/components/callbutton";
+import CallButton from "@/components/Callbutton";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import type { Metadata } from "next";
