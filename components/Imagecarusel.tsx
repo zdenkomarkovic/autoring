@@ -21,7 +21,7 @@ const ImageCarusel = ({
   images: string[];
 }) => {
   return (
-    <div className=" container px-2 md:px-4 mx-auto">
+    <div className=" container px-2 md:px-8 mx-auto">
       <h3 className="text-xl md:text-4xl py-5 md:py-10 text-center font-bold">
         {title}
       </h3>
@@ -31,14 +31,17 @@ const ImageCarusel = ({
         opts={{
           loop: true,
           direction: "rtl",
-          align: "start",
+          align: "center",
         }}
       >
-        <CarouselContent className="flex flex-row-reverse gap-1 md:ml-16 mr-8 md:mr-16 rtl">
+        <CarouselContent
+          className="flex flex-row-reverse gap-1 ml-1 md:ml-16  md:mr-16 rtl"
+          style={{ transform: "none" }}
+        >
           {images.map((image, i) => (
             <CarouselItem
               key={i}
-              className="pl-1 basis-[88%] md:basis-1/2 lg:basis-1/3"
+              className="pl-1 basis-[83%] md:basis-[45%] lg:basis-[33%]"
             >
               <div className="px-1 flex flex-col">
                 <ImageCard image={image}></ImageCard>
