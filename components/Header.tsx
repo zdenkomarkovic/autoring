@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Logo from "../public/manikam.png";
+import Logo from "../public/logo.jpg";
 import Link from "next/link";
 import { MenuIcon } from "lucide-react";
 
@@ -48,8 +48,12 @@ const MobileMenu = () => (
   </Sheet>
 );
 
-const DesktopNav = () => (
-  <ul className="hidden gap-12 lg:flex  text-xl text-primary">
+const DesktopNav = ({ scrolled }: { scrolled: boolean }) => (
+  <ul
+    className={`hidden gap-12 md:flex  text-xl ${
+      scrolled ? "text-primary" : "text-muted"
+    }`}
+  >
     {navList.map((item, index) => {
       return (
         <Link key={index} href={item.link}>
@@ -99,7 +103,7 @@ export default function Header() {
             className="rounded-full"
           />
         </Link>
-        <DesktopNav />
+        <DesktopNav scrolled={scrolled} />
         <MobileMenu />
       </nav>
     </header>

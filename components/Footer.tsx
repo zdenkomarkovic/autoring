@@ -11,7 +11,7 @@ export default function Footer() {
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5 }}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-gray-50">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center md:text-left md:grid md:grid-cols-3 gap-8 mx-auto">
           <div>
             <ul className="pb-5 flex justify-around items-center md:pb-0 md:block md:space-y-2">
@@ -20,16 +20,16 @@ export default function Footer() {
                   href="/"
                   className="text-muted-foreground hover:text-primary"
                 >
-                  Početna
+                  Prevoz Mini Bus
                 </Link>
               </li>
 
               <li>
                 <Link
-                  href="/"
+                  href="/taxi"
                   className="text-muted-foreground hover:text-primary"
                 >
-                  Usluge
+                  Mega Taxi Pozega
                 </Link>
               </li>
 
@@ -47,22 +47,32 @@ export default function Footer() {
           <div className="space-y-3 pb-5 md:pb-0">
             <div>
               {" "}
-              <a href="tel:+38160 000 000">
-                <p className="text-muted-foreground">Telefon: +38160 000 000</p>
+              <a href="tel:+381646103788">
+                <p className="text-muted-foreground">
+                  Telefon: +38164 610 3788
+                </p>
               </a>
             </div>
             <div>
-              <a href="mailto:">
+              <a href="mailto:megataxipozega@gmail.com">
                 <p className="text-muted-foreground text-wrap">
-                  Email: starter mail
+                  Email: megataxipozega@gmail.com
                 </p>
               </a>
             </div>
             <div className="flex space-x-4 justify-center md:justify-start">
-              <a href="#" className="text-muted-foreground hover:text-primary">
+              <a
+                href="https://www.facebook.com/citroentaxi.pozega/?locale=sr_RS"
+                target={"_blank"}
+                className="text-muted-foreground hover:text-primary"
+              >
                 <Facebook />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary">
+              <a
+                href="https://www.instagram.com/mega.taxi.pozega/?hl=en"
+                target={"_blank"}
+                className="text-muted-foreground hover:text-primary"
+              >
                 <Instagram />
               </a>
             </div>
@@ -76,15 +86,12 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <div className="mt-5 pt-5 md:mt-8 md:pt-8 border-t border-muted-foreground/20 text-center text-muted-foreground">
+
+        <div className="mt-5 pt-5 md:mt-8 md:pt-8 flex flex-col md:flex-row justify-center gap-2 md:gap-10 border-t border-primary ">
+          <p>&copy; 2025 Autoring. Sva prava zadržana.</p>
           <a href="https://www.manikamwebsolutions.com/" target="_blank">
-            <p>
-              &copy; 2025{" "}
-              <span className="font-bold text-primary">
-                ManikamWebSolutions
-              </span>
-              . Sva prava zadržana.
-            </p>
+            Izrada sajta:{" "}
+            <span className="font-bold text-primary"> ManikamWebSolutions</span>
           </a>{" "}
         </div>
       </div>

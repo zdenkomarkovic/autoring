@@ -17,7 +17,7 @@ const Hero = () => {
         />
       </div>
       <div className="relative flex flex-col gap-6 w-full items-center justify-center text-white z-[1] text-center">
-        <h1 className="text-primary md:text-[4rem] text-3xl font-bold leading-[1.2] px-4">
+        <h1 className=" md:text-[4rem] text-3xl font-bold leading-[1.2] px-4">
           Profesionalan prevoz putnika – Mini bus, kombi i autobuski prevoz
         </h1>
         <h2 className="text-background font-medium md:text-[1.5rem] text-md max-w-[800px] px-4">
@@ -28,7 +28,7 @@ const Hero = () => {
             <motion.button
               whileHover={{ translateY: "-5px" }}
               whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-2 bg-primary text-foreground px-4 py-2 md:px-8 md:py-3 rounded-lg font-medium"
+              className="flex items-center gap-2 bg-primary  px-4 py-2 md:px-8 md:py-3 rounded-lg font-medium"
             >
               <FaPhoneAlt className="w-[18px]" />
               Pozovite Mini Bus

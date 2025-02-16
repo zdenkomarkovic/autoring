@@ -23,7 +23,9 @@ const ImageCarusel = ({
 }) => {
   return (
     <div className=" container px-2 md:px-4 mx-auto">
-      <h3 className="text-xl md:text-4xl py-5 md:py-10 text-center">{title}</h3>
+      <h3 className="text-xl md:text-4xl py-5 md:py-10 text-center font-bold">
+        {title}
+      </h3>
 
       <Carousel
         className="w-full overflow-hidden"
@@ -32,13 +34,6 @@ const ImageCarusel = ({
           direction: "rtl",
           align: "start",
         }}
-        plugins={[
-          Autoplay({
-            stopOnInteraction: false,
-            stopOnFocusIn: false,
-            delay: 3000,
-          }),
-        ]}
       >
         <CarouselContent className="flex flex-row-reverse gap-1 md:ml-16 mr-8 md:mr-16 rtl">
           {images.map((image, i) => (
