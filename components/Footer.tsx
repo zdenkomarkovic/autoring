@@ -87,7 +87,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-5 pt-5 md:mt-8 md:pt-8 flex flex-col md:flex-row justify-center gap-2 md:gap-10 border-t border-primary ">
+        <div className="mt-5 pt-5 md:mt-8 md:pt-8 flex flex-col text-center md:flex-row justify-center gap-2 md:gap-10 border-t border-primary ">
           <p>&copy; 2025 Autoring. Sva prava zadržana.</p>
           <a href="https://www.manikamwebsolutions.com/" target="_blank">
             Izrada sajta:{" "}
