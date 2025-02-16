@@ -19,7 +19,8 @@ import {
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Facebook, Mail } from "lucide-react";
+import { Facebook, Mail, MoveLeft } from "lucide-react";
+import Link from "@/node_modules/next/link";
 
 const contactFormSchema = z.object({
   name: z.string().min(2, { message: "Molimo unesite vase ime i prezime" }),
@@ -58,50 +59,53 @@ export default function Contact() {
   return (
     <div className="">
       <div className="contact container mx-auto pt-28 pb-16 px-6 md:px-8 md:py-32 space-y-12 md:space-y-24">
+        <Link href={"/"} className="text-primary flex gap-3 ">
+          <MoveLeft /> Nazad na pocetnu stranicu
+        </Link>
         <h1 className="text-2xl md:text-5xl pl-2 md:px-32">
-          Kontakt starter manikam
+          Kontakt Mini bus prevoz, kombi prevoz putnika
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
           <div className=" mx-2 md:mx-20">
             <div className="space-y-3 md:space-y-10 text-lg md:text-2xl">
               <a
-                href="tel:+3816"
+                href="tel:+381646103788"
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   <FaPhone className="text-[20px] lg:text-[30px]" />
-                  +38160 000 000
+                  +38164 610 3788
                 </button>
               </a>
               <a
-                href="viber://chat?number=%2B3816"
+                href="viber://chat?number=%2B381646103788"
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   <FaViber className="text-[28px] lg:text-[35px] p-1 bg-purple-600 text-white rounded-xl rounde" />{" "}
-                  +38160 000 000
+                  +38164 610 3788
                 </button>
               </a>
               <a
-                href="https://wa.me/3816"
+                href="https://wa.me/381646103788"
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   <FaWhatsappSquare className="text-[30px] lg:text-[35px] rounded-2xl text-green-700 " />{" "}
-                  +38160 000 000
+                  +38164 610 3788
                 </button>
               </a>
               <a
-                href="mailto:"
+                href="mailto:megataxipozega@gmail.com"
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   <Mail className=" w-[28px] h-[28px]" />{" "}
-                  startermanikam@gmail.com
+                  megataxipozega@gmail.com
                 </button>
               </a>
               <a
-                href=""
+                href="https://www.instagram.com/mega.taxi.pozega/?hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="py-[7px] flex border-b-[1px] border-primary "
@@ -109,11 +113,11 @@ export default function Contact() {
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   {" "}
                   <FaInstagram className=" text-[28px] lg:text-[30px]" />
-                  manikam_starter
+                  mega.taxi.pozega
                 </button>
               </a>
               <a
-                href=""
+                href="https://www.facebook.com/citroentaxi.pozega/?locale=sr_RS"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="py-[7px] flex border-b-[1px] border-primary "
@@ -121,7 +125,7 @@ export default function Contact() {
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   {" "}
                   <Facebook className=" text-[28px] lg:text-[30px]" />
-                  Manikam Starter
+                  Mega Taxi Pozega
                 </button>
               </a>
             </div>
@@ -218,7 +222,7 @@ export default function Contact() {
           </div>
         </div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92892.91707130236!2d21.810959218314256!3d43.316276176269426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b0c240c81f65%3A0x56319fe3122ac3cd!2zTmnFoQ!5e0!3m2!1sen!2srs!4v1738712533479!5m2!1sen!2srs"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23021.964908275757!2d20.01751886374509!3d43.840372303888515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47577eeffbe10089%3A0xd303a0575a4d8d61!2zUG_FvmVnYQ!5e0!3m2!1sen!2srs!4v1739722672607!5m2!1sen!2srs"
           width="600"
           height="450"
           style={{ border: "0" }}
