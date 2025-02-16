@@ -66,7 +66,7 @@ const ImageCard = ({ image }: { image: string }) => {
       className=""
     >
       <Card
-        className={`bg-primary relative overflow-hidden  rounded-3xl text-white `}
+        className={` bg-transparent relative overflow-hidden  rounded-3xl text-white `}
       >
         <Image
           src={image}

@@ -140,6 +140,7 @@ export const reno: string[] = [
   "/minibus/reno.jpg",
   "/minibus/reno (2).jpg",
   "/minibus/reno (4).jpg",
+  "/minibus/reno (5).jpg",
   "/minibus/reno (6).jpg",
 ];
 
