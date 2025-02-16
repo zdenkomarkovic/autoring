@@ -176,3 +176,14 @@ export const bus: string[] = [
   "/minibus/bus (2).jpg",
   "/minibus/bus (3).jpg",
 ];
+
+export const taxi: string[] = [
+  "/taxi/taxi (4).jpg",
+  "/taxi/taxi.jpg",
+  "/taxi/taxi (14).jpg",
+  "/taxi/taxi (6).jpg",
+  "/taxi/taxi (7).jpg",
+  "/taxi/taxi (16).jpg",
+  "/taxi/taxi (18).jpg",
+  "/taxi/taxi (5).jpg",
+];

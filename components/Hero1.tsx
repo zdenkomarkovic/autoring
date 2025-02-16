@@ -1,30 +1,43 @@
+"use client";
+
+import Hero1 from "../public/taxi (14).jpg";
 import Image from "next/image";
+import { FaPhoneAlt } from "react-icons/fa";
+import { motion } from "framer-motion";
 
-import HeroImg from "../public/hero.jpg";
-
-const Hero = () => (
-  <div className="relative flex justify-center ">
-    <div className="absolute top-0 left-0 w-[100vw] h-[100dvh] bg-foreground/40 z-[1]" />
-    <Image
-      src={HeroImg}
-      alt="mini bus"
-      className="top-0 left-0 w-[100vw] h-[100dvh] object-cover"
-    />
-    <div className="absolute flex flex-col items-center gap-10 z-[1] text-center px-4 bottom-[4rem] md:bottom-[40%] md:right-[20rem]">
-      <div className="flex flex-col gap-4">
-        <h1 className="text-white text-[2rem] md:text-[4rem] font-bold">
-          Mini Bus Prevoz
-        </h1>
-        <h2 className="text-white font-medium text-base md:text-[1.2rem] md:leading-[1.2] max-w-[600px]">
-          U nasoj floti imamo veliki izbor novih vozila kojima vrsimo kombi
-          prevoz i mini bus prevoz.
-        </h2>
+const Hero = () => {
+  return (
+    <div className=" hero relative flex min-h-[100dvh]">
+      <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-[1]" />
+      <div className="absolute top-0 left-0 w-full h-[100dvh] z-[0]">
+        <Image
+          src={Hero1}
+          alt="Mini bus prevoz putnika"
+          className="w-full h-[100dvh] object-cover"
+        />
       </div>
-      <button className="text-black rounded-full border-[2px] border-primary bg-primary font-bold px-4 py-2 max-w-[300px] w-full">
-        Pogledajte našu ponudu
-      </button>
+      <div className="relative flex flex-col gap-6 w-full items-center justify-center text-white z-[1] text-center">
+        <h1 className=" md:text-[4rem] text-3xl font-bold leading-[1.2] px-4">
+          Mega Taxi Pozega
+        </h1>
+        <h2 className="text-background font-medium md:text-[1.5rem] text-md max-w-[800px] px-4">
+          Pozovite nas i vozimo vas na zeljenu destinaciju.
+        </h2>
+        <div className="flex flex-col gap-4 md:flex-row">
+          <a href="tel:+3816715715">
+            <motion.button
+              whileHover={{ translateY: "-5px" }}
+              whileTap={{ scale: 0.95 }}
+              className=" flex items-center gap-2 bg-transparent border-background border-[1px] rounded-lg px-4 md:px-8 md:py-3 py-2 font-medium"
+            >
+              <FaPhoneAlt className="w-[18px]" />
+              Pozovite Taxi
+            </motion.button>
+          </a>
+        </div>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Hero;

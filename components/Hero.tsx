@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="absolute top-0 left-0 w-full h-[100dvh] z-[0]">
         <Image
           src={Hero1}
-          alt="Moderna dnevna soba"
+          alt="Mini bus prevoz putnika"
           className="w-full h-[100dvh] object-cover"
         />
       </div>
