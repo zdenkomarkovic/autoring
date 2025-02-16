@@ -24,10 +24,18 @@ const About = () => {
         međunarodnih tura.
       </p>
       <p className="text-xl md:text-3xl ">
-        Pokrivamo Zlatibor, Užice, Arilje, Kosjerić, Lučane i okolinu, ali
-        vršimo i prevoz putnika u inostranstvo. Bilo da vam treba prevoz za
-        poslovna putovanja, ekskurzije, transfere do aerodroma ili turističke
-        ture, kod nas ste u sigurnim rukama.
+        Pokrivamo{" "}
+        <span className="text-primary font-bold">
+          Zlatibor, Užice, Arilje, Kosjerić, Lučane
+        </span>{" "}
+        i okolinu, ali vršimo i prevoz putnika u{" "}
+        <span className="text-primary font-bold">inostranstvo</span>. Bilo da
+        vam treba prevoz za{" "}
+        <span className="text-primary font-bold">
+          poslovna putovanja, ekskurzije, transfere do aerodroma ili turističke
+          ture
+        </span>{" "}
+        , kod nas ste u sigurnim rukama.
       </p>
     </div>
   );

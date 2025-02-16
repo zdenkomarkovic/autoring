@@ -114,47 +114,32 @@ export const testimonialData: TestimonialData[] = [
 export const vw: string[] = [
   "/minibus/vw.jpg",
   "/minibus/vw (2).jpg",
-  "/minibus/vw (3).jpg",
-  "/minibus/vw (4).jpg",
-  "/minibus/vw (5).jpg",
   "/minibus/vw (6).jpg",
-  "/minibus/vw (7).jpg",
-  "/minibus/vw (8).jpg",
-  "/minibus/vw (9).jpg",
   "/minibus/vw (10).jpg",
-  "/minibus/vw (11).jpg",
   "/minibus/vw (12).jpg",
 ];
 
 export const mercedes: string[] = [
   "/minibus/mercedes.jpg",
   "/minibus/mercedes (2).jpg",
-  "/minibus/mercedes (3).jpg",
   "/minibus/mercedes (4).jpg",
-  "/minibus/mercedes (5).jpg",
   "/minibus/mercedes (6).jpg",
   "/minibus/mercedes (7).jpg",
-  "/minibus/mercedes (8).jpg",
-  "/minibus/mercedes (9).jpg",
   "/minibus/mercedes (10).jpg",
 ];
 
 export const bmercedes: string[] = [
   "/minibus/bmercedes.jpg",
-  "/minibus/bmercedes (2).jpg",
   "/minibus/bmercedes (3).jpg",
   "/minibus/bmercedes (4).jpg",
   "/minibus/bmercedes (5).jpg",
   "/minibus/bmercedes (6).jpg",
-  "/minibus/bmercedes (7).jpg",
 ];
 
 export const reno: string[] = [
   "/minibus/reno.jpg",
   "/minibus/reno (2).jpg",
-  "/minibus/reno (3).jpg",
   "/minibus/reno (4).jpg",
-  "/minibus/reno (5).jpg",
   "/minibus/reno (6).jpg",
 ];
 
@@ -162,12 +147,15 @@ export const cmercedes: string[] = [
   "/minibus/cmercedes.jpg",
   "/minibus/cmercedes (2).jpg",
   "/minibus/cmercedes (3).jpg",
+  "/minibus/cmercedes (4).jpg",
+  "/minibus/cmercedes (5).jpg",
 ];
 
 export const merced: string[] = [
   "/minibus/7+1.jpg",
   "/minibus/7+1 (2).jpg",
   "/minibus/7+1 (3).jpg",
+  "/minibus/7+1 (5).jpg",
   "/minibus/7+1 (4).jpg",
 ];
 
@@ -180,9 +168,9 @@ export const bus: string[] = [
 export const taxi: string[] = [
   "/taxi/taxi (4).jpg",
   "/taxi/taxi.jpg",
-  "/taxi/taxi (14).jpg",
   "/taxi/taxi (6).jpg",
   "/taxi/taxi (7).jpg",
+  "/taxi/taxi (15).jpg",
   "/taxi/taxi (16).jpg",
   "/taxi/taxi (18).jpg",
   "/taxi/taxi (5).jpg",
