@@ -10,7 +10,6 @@ const Taxi = () => {
   return (
     <div className="taxi ">
       <Hero />
-      <Aplikacija />
       <CallButton />
       <Kartice />
       <ImageEditor images={taxi} />

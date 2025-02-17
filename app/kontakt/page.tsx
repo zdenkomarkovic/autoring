@@ -222,7 +222,7 @@ export default function Contact() {
           </div>
         </div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.555908991145!2d20.033132776671103!3d43.844305240049266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47577f1ba3a9ea47%3A0xab93e29826367d5e!2sHotel%20Po%C5%BEega!5e0!3m2!1sen!2srs!4v1739814989238!5m2!1sen!2srs"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1438.7650307153576!2d20.035021051844005!3d43.844841087402415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47577f079492e73d%3A0x20de17517dcffeac!2sMEGA%20TAXI%20POZEGA!5e0!3m2!1sen!2srs!4v1739816263157!5m2!1sen!2srs"
           width="600"
           height="450"
           style={{ border: "0" }}
