@@ -24,15 +24,6 @@ const Kartice = () => {
             </p>
           </div>
           <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">
-            <CiCreditCard2 className="mx-auto text-primary text-[50px] lg:text-[80px]" />
-            <h3 className="text-[25px] lg:text-[30px] text-primary">
-              Platna kartica
-            </h3>
-            <p className="text-[18px] lg:text-[24px]">
-              Imamo mogucnost placanja karticom
-            </p>
-          </div>
-          <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">
             <IoCarSportOutline className="mx-auto text-primary text-[50px] lg:text-[80px]" />
             <h3 className="text-[25px] lg:text-[30px] text-primary">
               Nasa vozila
@@ -49,15 +40,6 @@ const Kartice = () => {
             </h3>
             <p className="text-[18px] lg:text-[24px]">
               Voznje se mogu platiti i preko racuna
-            </p>
-          </div>
-          <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">
-            <FaWifi className="mx-auto text-primary text-[50px] lg:text-[80px]" />
-            <h3 className="text-[25px] lg:text-[30px] text-primary">
-              Internet vozilima
-            </h3>
-            <p className="text-[18px] lg:text-[24px]">
-              Ako vam je potreban internet tokom voznje, nasa vozila imaju WI FI
             </p>
           </div>
           <div className="text-center flex flex-col gap-[3px] lg:gap-[15px] lg:w-[400px]">

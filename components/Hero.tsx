@@ -34,7 +34,7 @@ const Hero = () => {
               Pozovite Mini Bus
             </motion.button>
           </a>
-          <a href="tel:+3816715715">
+          <a href="tel:+381656715715">
             <motion.button
               whileHover={{ translateY: "-5px" }}
               whileTap={{ scale: 0.95 }}

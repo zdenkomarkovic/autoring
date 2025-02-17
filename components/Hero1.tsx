@@ -24,7 +24,7 @@ const Hero = () => {
           Pozovite nas i vozimo vas na zeljenu destinaciju.
         </h2>
         <div className="flex flex-col gap-4 md:flex-row">
-          <a href="tel:+3816715715">
+          <a href="tel:+381656715715">
             <motion.button
               whileHover={{ translateY: "-5px" }}
               whileTap={{ scale: 0.95 }}

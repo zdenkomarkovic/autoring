@@ -124,7 +124,6 @@ export const mercedes: string[] = [
   "/minibus/mercedes (2).jpg",
   "/minibus/mercedes (4).jpg",
   "/minibus/mercedes (6).jpg",
-  "/minibus/mercedes (7).jpg",
   "/minibus/mercedes (10).jpg",
 ];
 
@@ -168,11 +167,11 @@ export const bus: string[] = [
 
 export const taxi: string[] = [
   "/taxi/taxi (4).jpg",
-  "/taxi/taxi.jpg",
   "/taxi/taxi (6).jpg",
   "/taxi/taxi (7).jpg",
   "/taxi/taxi (15).jpg",
   "/taxi/taxi (16).jpg",
   "/taxi/taxi (18).jpg",
   "/taxi/taxi (5).jpg",
+  "/taxi/taxi.jpg",
 ];

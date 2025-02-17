@@ -41,12 +41,12 @@ const CallButton = () => {
       fixed top-[250px] md:top-[65px] lg:top-[250px]  p-1 ml-2 lg:ml-10  z-50`}
     >
       <a
-        href="tel:+3816715715"
+        href="tel:+381656715715"
         className={` bg-gray-700  px-[10px] py-[5px] opacity-90 rounded-lg flex items-center gap-[10px] text-[15px] lg:text-[17px] cursor-pointer`}
       >
         <FaPhoneAlt className="bg-gray-100 rounded-full w-6 h-6 lg:w-12 lg:h-12 p-[4px] text-primary" />{" "}
         <span className={` text-white flex flex-col text-center`}>
-          Pozovite Mega Taxi <span>+3816715715</span>{" "}
+          Pozovite Mega Taxi <span>+381656715715</span>{" "}
         </span>
       </a>
     </div>
