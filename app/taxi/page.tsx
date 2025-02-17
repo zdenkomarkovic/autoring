@@ -1,4 +1,3 @@
-import Aplikacija from "@/components/Aplikacija";
 import CallButton from "@/components/CallButtonTaxi";
 import Hero from "@/components/Hero1";
 import ImageEditor from "@/components/ImageEditor";
