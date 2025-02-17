@@ -1,9 +1,7 @@
 import React from "react";
 import { TfiMapAlt } from "react-icons/tfi";
-import { CiCreditCard2 } from "react-icons/ci";
 import { IoCarSportOutline } from "react-icons/io5";
 import { FaPaw } from "react-icons/fa6";
-import { FaWifi } from "react-icons/fa6";
 import { PiPiggyBankLight } from "react-icons/pi";
 
 const Kartice = () => {
