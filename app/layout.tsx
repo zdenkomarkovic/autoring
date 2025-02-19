@@ -19,6 +19,17 @@ export const metadata: Metadata = {
   title: "Minibus i kombi prevoz putnika Požega",
   description:
     "Minibus prevoz putnika i kombi prevoz putnika u Požegi. Sigurna i udobna vožnja do svih destinacija. Rezervišite prevoz već danas!",
+  openGraph: {
+    title: "Kombi i minibus prevoz putnika Požega",
+    description:
+      "Siguran i udoban prevoz do svih destinacija. Rezervišite prevoz već danas!",
+    url: "https://www.kombiprevozputnikapozega.rs",
+    type: "website",
+  },
+  twitter: {
+    title: "Kombi i minibus prevoz Požega",
+    description: "Sigurna i udobna vožnja. Rezervišite odmah!",
+  },
   icons: {
     icon: "/favicon.ico",
     apple: "/favicon.ico",
@@ -32,6 +43,9 @@ export const metadata: Metadata = {
     "prevoz do aerodroma",
     "prevoz do aerodroma Požega",
   ],
+  alternates: {
+    canonical: "https://www.kombiprevozputnikapozega.rs",
+  },
 };
 
 export default function RootLayout({
