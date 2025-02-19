@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     "prevoz do aerodroma Požega",
   ],
   alternates: {
-    canonical: "https://www.kombiprevozputnikapozega.rs",
+    canonical: "https://.kombiprevozputnikapozega.rs",
   },
 };
 
