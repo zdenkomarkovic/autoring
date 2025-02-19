@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   description:
     "Minibus prevoz putnika i kombi prevoz putnika u Požegi. Sigurna i udobna vožnja do svih destinacija. Rezervišite prevoz već danas!",
   icons: {
-    icon: "/logo.jpg",
-    apple: "/logo.jpg",
+    icon: "/favicon.ico",
+    apple: "/favicon.ico",
   },
   keywords: [
     "minibus prevoz Požega",
