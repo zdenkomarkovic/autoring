@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Minibus i kombi prevoz putnika Pozega",
+  title: "Minibus i kombi prevoz putnika Požega",
   description:
     "Minibus prevoz putnika i kombi prevoz putnika u Požegi. Sigurna i udobna vožnja do svih destinacija. Rezervišite prevoz već danas!",
   icons: {

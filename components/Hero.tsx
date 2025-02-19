@@ -18,10 +18,10 @@ const Hero = () => {
       </div>
       <div className="relative flex flex-col gap-6 w-full items-center justify-center text-white z-[1] text-center">
         <h1 className=" md:text-[4rem] text-3xl font-bold leading-[1.2] px-4">
-          Profesionalan prevoz putnika – Mini bus, kombi i autobuski prevoz
+          Mini bus i kombi prevoz putnika Požega
         </h1>
         <h2 className="text-background font-medium md:text-[1.5rem] text-md max-w-[800px] px-4">
-          Pozovite nas i vozimo vas na zeljenu destinaciju.
+          Pozovite nas i vozimo vas na željenu destinaciju.
         </h2>
         <div className="flex flex-col gap-4 md:flex-row">
           <a href="tel:+381646103788">

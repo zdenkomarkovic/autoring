@@ -12,7 +12,7 @@ export const navList = [
   },
 
   {
-    title: "Mega Taxi Pozega",
+    title: "Mega Taxi Požega",
     link: "/taxi",
   },
   {
